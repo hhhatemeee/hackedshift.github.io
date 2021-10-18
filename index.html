@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="export-file">
+                <input class='input' type="file" onchange="readFile(this)" id="inp_1">
+
+            </div>
+            <button class="button main-btn" type="submit" id="submit" onclick="alerted();">Хакнуть</button>
+            <div class="output-hackKey">
+                <input type="text" name="" id="inp_2">
+            </div>
+            <div class="input-key">
+                <p>Введите ключ:</p>
+                <input type="text" name="" id="inp_3">
+            </div>
+            <div class="output-text">
+                <textarea type="text" rows="20" id='ta_1'></textarea>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+.container{
+    text-align: center;
+    width: 1144px;
+    margin: 0 auto;
+}
+.button {
+    margin: 1em;
+    background-color: #4985ff;
+    color: #ffffff;
+    font-family: 'ProximaNova_reg', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 1.5rem 3.5rem;
+    border: none;
+    border-radius: 3rem;
+    outline: 0;
+  }
+  .button:hover {
+    cursor: pointer;
+    background-color: #2f74ff;
+  }
+  .input{
+      display: flexbox;
+      justify-content: center;
+  }
+  .output-text textarea{
+    border: #f5f5f5 solid 1px;
+    border-radius: 1rem;
+    outline: 0;
+    /* padding: 20rem 15rem 1.3rem 3rem; */
+    box-shadow: -1px 1px 24px -11px #000000;
+    min-height: 30px; 
+    margin: 0px 0px 5px; 
+    width: 747px; 
+    height: 516px;
+    padding-left: 10px;
+  }
+  .input-key{
+      text-align: center;
+  }
+  .input-key input{
+      text-align: center;
+    border: #f5f5f5 solid 1px;
+    border-radius: 2rem;
+    outline: 0;
+    padding: 1.3rem 1rem 1.3rem 1rem;
+    width: 3em;
+    height: 1em;
+    box-shadow: -1px 1px 24px -11px #000000;
+     margin-bottom: 25px;
+     font-size: 26px ;
+  }
+  .input-key p{
+    font-family: 'ProximaNova_reg', sans-serif;
+    /* color: #999999;
+    font-size: 1.6rem;
+    line-height: 2.5rem; */
+  }
+  .output-hackKey input{
+    text-align: center;
+    border: #f5f5f5 solid 1px;
+    border-radius: 2rem;
+    outline: 0;
+    padding: 1.3rem 2rem 1.3rem 2rem;
+    width: 25em;
+    height: 1em;
+    box-shadow: -1px 1px 24px -11px #000000;
+
+     font-size: 15px ;
+  }
+
+  @media (max-width: 991px){
+      .main{
+        text-align: center;
+         max-width: 800px;
+      }
+    .output-hackKey input{
+        width: 10%;
+    }
+    .output-text textarea{
+        width: 30%
+    }
+    .container{
+        text-align: center;
+        width: 1000px;
+        margin: 0 auto;
+    }
+  }
